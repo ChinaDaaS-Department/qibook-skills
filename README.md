@@ -6,8 +6,8 @@
 
 | Skill | 说明 |
 |-------|------|
-| **qibook-company-profile** | 查企业查老板 — 快速查询企业工商信息（照面、股东、高管、对外投资）和人员关联 |
-| **qibook-company-wiki-deepresearch** | 企业百科深度研究 — 基于 20+ 维度数据，自动识别主体类型，生成专业企业洞察报告 |
+| **qibook-company-profile** | 企业征信 — 快速查询企业工商信息（照面、股东、高管、对外投资）和人员关联 |
+| **qibook-company-wiki-deepresearch** | 企业简介 — 基于 20+ 维度数据，自动识别主体类型，生成专业企业洞察报告 |
 
 ## 安装
 
@@ -22,10 +22,10 @@ pip install requests
 通过 skills 命令安装：
 
 ```bash
-# 查企业查老板
+# 企业征信
 npx skills add https://github.com/ChinaDaaS-Department/qibook-skills.git --skill qibook-company-profile
 
-# 企业百科深度研究
+# 企业简介
 npx skills add https://github.com/ChinaDaaS-Department/qibook-skills.git --skill qibook-company-wiki-deepresearch
 ```
 
@@ -57,7 +57,6 @@ export QIBOOK_BASE_URL="your_base_url"
 ```
 帮我了解一下比亚迪
 给我做个安踏的企业报告
-这家公司靠不靠谱
 ```
 
 ## 许可
