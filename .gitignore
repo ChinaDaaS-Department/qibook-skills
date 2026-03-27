@@ -1,0 +1,11 @@
+.idea
+.claude
+.agents
+.trae
+.DS_Store
+
+__pycache__
+*.pyc
+
+data
+logs
